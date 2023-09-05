@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konum</title>
+    <style>
+        div {
+            border-style: solid;
+            border-color: chocolate;
+        }
+        
+        #buyuk {
+            background-color: aqua;
+            width: 200px;
+            height: 100px;
+            position: fixed;
+            bottom: 10px;
+            right: 30px;
+        }
+        
+        #kucuk {
+            background-color: blueviolet;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            left: 20px;
+            top: 30px;
+        }
+        /* kutuları ic ice koymak icinde position:apsolute kullanılır */
+        
+        #golge1 {
+            position: relative;
+            left: 50px;
+            top: 100px;
+            height: 50px;
+            width: 100px;
+            border-color: blue;
+            box-shadow: 10px 10px 10px red;
+        }
+        
+        #golge2 {
+            position: relative;
+            left: 50px;
+            top: 200px;
+            height: 50px;
+            width: 100px;
+            border-color: blue;
+            border-radius: 30px;
+            box-shadow: 10px 10px 10px red inset;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="buyuk"></div>
+    <div id="kucuk"></div>
+    <div id="golge1"></div>
+    <div id="golge2"></div>
+</body>
+
+</html>
